@@ -57,5 +57,10 @@ Lets get started
         a. Get a basic index.html & styles.css file
             a1. I got mine through CHAT-gpt
             a1. I asked 'give me a simple html, and css file to begin an art portfolio.'
+        b. regardless of how you got the file. whether you make it from scratch or not it will be the basis of how you learn 
+    
+    8. 
+        a. for the sake of simplicity I will assume you had the same start as me, and your index.html file has a header, body, footer ETC
+        b. 
 
     

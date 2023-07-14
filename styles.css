@@ -9,9 +9,9 @@ body {
   header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
-    .centered-text {
-        text-align: center;
+    padding: 5px;
+    .center-text {
+      text-align: center;
     }
     
   }
