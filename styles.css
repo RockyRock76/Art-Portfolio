@@ -6,20 +6,28 @@ body {
    
 
   /* HEADER SECTION */
+  
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
     padding: 5px;
-    .center-text {
-      text-align: center;
-    }
-    
+    text-align: center;
   }
   
+  header h1 {
+    color: #000000; /* Set the color for the header text */
+  }
+    
+
+  /* Navigation Tabs Style */
+      /* this first one is the left and right margins */
+        /* See how I put the text-align: center; here and not in the other nav ul li sections */
+
+
   nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    text-align: center;
   }
   
   nav ul li {
@@ -28,7 +36,7 @@ body {
   }
   
   nav ul li a {
-    color: #333;
+    color: #ff0000;
     text-decoration: none;
   }
   
@@ -55,8 +63,8 @@ body {
   }
   
   footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff;
+    color: #0084ff;
     padding: 20px;
     text-align: center;
   }
