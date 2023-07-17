@@ -7,16 +7,32 @@ body {
 
   /* HEADER SECTION */
   
-  header {
-    background-color: #ffffff;
-    padding: 5px;
-    text-align: center;
-  }
-  
-  header h1 {
-    color: #000000; /* Set the color for the header text */
-  }
-    
+  /* Apply a different font-family to the header */
+header {
+  font-family:'8bit';
+  background-color: #ffffff;
+  padding: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* Apply a different font-family to the h1 element within the header */
+header h1 {
+  color: #000000;
+}
+
+/* Customize the size of the horizontal line */
+.line1 {
+  width: 30%;
+  height: 2px;
+  background-color: #868686;
+  border: none;
+  margin: auto;
+  margin-top: 0px; /* Adjust this value to control the distance between header and line */
+  margin-bottom: 10px; /* Adjust this value to control the distance between line and content below */
+}
+
 
   /* Navigation Tabs Style */
       /* this first one is the left and right margins */
@@ -31,18 +47,30 @@ body {
   }
   
   nav ul li {
-    display: inline;
+    display: inline-block;
     margin-right: 10px;
+  }
+
+  nav ul li:last-child {
+    margin-right: 0; /* Remove right margin for the last list item */
   }
   
   nav ul li a {
-    color: #ff0000;
+    color: #000000;
     text-decoration: none;
   }
   
+/* Customize the size of the horizontal line */
+.line2 {
+  width: 22%; /* Set the width of the line to 50% of its containing element */
+  height: 2px; /* Set the height of the line to 2 pixels */
+  background-color: #868686; /* Set the background color of the line */
+  border: none; /* Remove the default border */
+  margin: 10;
+}
+
+
   section id
-
-
 
   main {
     padding: 20px;
@@ -68,7 +96,7 @@ body {
   
   footer {
     background-color: #ffffff;
-    color: #0084ff;
+    color: #000000;
     padding: 20px;
     text-align: center;
   }
@@ -101,4 +129,3 @@ body {
     color: #000000; 
   }
 
-  
