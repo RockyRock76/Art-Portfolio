@@ -42,7 +42,7 @@ Lets get started
     6. Time to do stuff for real
         a. So in GITHUB there will be a few things. 
             a1. first thing you want to do is to make a repository in github deskotop 
-                a2. What is a repository? its where your whole file is located. Its the glass that holds your liquid. The liquid being all of you code.
+                a2. What is a repository? its where your whole file is located. Its the glass that holds your liquid. The liquid being all of your code.
         b. BRANHCES! 
             b1. when you start, a branch will be called main. This is the "live" version of your website. 
             b2. create a second branch in which you will create patches to your website.
@@ -61,6 +61,31 @@ Lets get started
     
     8. 
         a. for the sake of simplicity I will assume you had the same start as me, and your index.html file has a header, body, footer ETC
-        b. 
+
+    9. Seeing what it looks like
+        a. Now assuming you have the correct extensions installed, you should be able to right click on your html file, and click view with live server. This opens your browser and shows you how it looks like if you were to publosh it
+        b. You may be thinking "wow this looks horrible" 
+            b1. heoever, you must remember that this is just the beginning. Your imagination is the only thing limiting you. Slowly but surely.
+
+    10. THought process
+        a. from here on out it is a very self guided way of working. The next steps from here are what I did. my thoughts an basically a diary of what happened and what was i thinking when going into it and while working on it.
+        b. if you want to keep reading feel free if not I believe you have the knowledge to work on it by yourself and google your way through it!
+        c. Remember failure! you cannot get anywhere without it
+
+    10.5. 
+        a. After everyday was done I would update level 1, and once I feel comfortable with it looking somewhat presentable I will take taht to main and create a new branch called level 2. and onwards. I will mention when I change this, but just keep in mind  
+    
+    11. Day 1. 
+        a. We finally have soemthing that we can work with. First thing I thoough was this font and placement of everything is disgisting.
+        b. First goal. Center all the main headlining text. 
+        c. change the colour of the background and text
+        Failed so much, asked myself constantly why isnt this working? then changed a couple thigns, formatted it differently and boom it worked somehow
+
+    12. day 2
+        a. center the rest of the text that I coldnt center
+        b. Change the font of the header. 
+        c. underline the header.
+        d. change hte font and sizing of the rest of the text
+        e. work on margins and space everyrhting out a little better so its more visually appealing
 
     
