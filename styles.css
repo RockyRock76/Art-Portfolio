@@ -3,6 +3,10 @@ body {
     margin: 0;
     padding: 0;
     background-color: #ffffff;
+    background-image: url('Photos/main_page/IMG_3007.jpg'); /* Use forward slashes or double backslashes for folder separators */
+    background-size: cover;
+    background-position: center  40%;
+    background-repeat: no-repeat;
   }
    
 
@@ -10,12 +14,13 @@ body {
   
   /* Apply a different font-family to the header */
 header {
-  font-family:'8bit';
-  background-color: #ffffff;
-  padding: 0px;
-  margin-bottom: 0px;
+  font-family: '8bit';
+  background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
+  padding: 0;
+  margin-bottom: 0;
   text-align: center;
   font-size: 30px;
+  
 }
 
 a {
@@ -24,14 +29,14 @@ a {
 
 /* Apply a different font-family to the h1 element within the header */
 header h1 {
-  color: #000000;
+  color: #888888;
 }
 
 /* Customize the size of the horizontal line */
 .line1 {
   width: 30%;
   height: 2px;
-  background-color: #868686;
+  background-color: #000000; /* Set the background color of the line */
   border: none;
   margin: auto;
   margin-top: 0px; /* Adjust this value to control the distance between header and line */
@@ -64,7 +69,7 @@ header h1 {
   }
   
   nav ul li a {
-    color: #888888;
+    color: #a3a3a3;
     text-decoration: none;
   }
   
@@ -72,7 +77,7 @@ header h1 {
 .line2 {
   width: 22%; /* Set the width of the line to 50% of its containing element */
   height: 2px; /* Set the height of the line to 2 pixels */
-  background-color: #868686; /* Set the background color of the line */
+  background-color: #000000; /* Set the background color of the line */
   border: none; /* Remove the default border */
   margin: 10;
 }
@@ -89,7 +94,7 @@ header h1 {
   }
   
   h1, h2 {
-    color: #333;
+    color: #888888;
   }
   
   .image-container {
@@ -103,17 +108,17 @@ header h1 {
   }
   
   footer {
-    background-color: #ffffff;
-    color: #000000;
+    background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
+    color: #888888;
     padding: 20px;
     text-align: center;
   }
 
   main {
-    background-color: #ffffff;
+    background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
     padding: 5px;
     text-align: center;
-    color: #000000; 
+    color: #888888;
     font-family:'8bit';
     font-size: 24px;
     overflow: hidden; /* Hide the overflow so the text doesn't show before animation */
@@ -126,7 +131,7 @@ header h1 {
     background-color: #ffffff;
     padding: 5px;
     text-align: center;
-    color: #000000; 
+    color: #888888;
     font-family:'8bit';
     font-size: 24px;
   }
@@ -135,7 +140,7 @@ header h1 {
     background-color: #ffffff;
     padding: 5px;
     text-align: center;
-    color: #000000; 
+    color: #888888;
     font-family:'8bit';
     font-size: 24px;
   }
@@ -144,7 +149,7 @@ header h1 {
     background-color: #ffffff;
     padding: 5px;
     text-align: center;
-    color: #000000; 
+    color: #888888;
     font-family:'8bit';
     font-size: 24px;
   }
@@ -153,16 +158,16 @@ header h1 {
     background-color: #ffffff;
     padding: 5px;
     text-align: center;
-    color: #000000; 
+    color: #888888;
     font-family:'8bit';
     font-size: 24px;
   }
 
   footer {
-    background-color: #ffffff;
+    background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
     padding: 5px;
     text-align: center;
-    color: #000000; 
+    color: #888888;
     font-family:'8bit';
     font-size: 24px;
   }
