@@ -36,6 +36,7 @@ header h1 {
   margin: auto;
   margin-top: 0px; /* Adjust this value to control the distance between header and line */
   margin-bottom: 10px; /* Adjust this value to control the distance between line and content below */
+
 }
 
 
@@ -115,6 +116,10 @@ header h1 {
     color: #000000; 
     font-family:'8bit';
     font-size: 24px;
+    overflow: hidden; /* Hide the overflow so the text doesn't show before animation */
+    white-space: nowrap; /* Keep the text in one line */
+
+
   }
 
   main1 {

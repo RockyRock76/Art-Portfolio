@@ -20,7 +20,7 @@
 
     @font-face {
   font-family: '8bit';
-  src: url(fonts/8-bit-wonder/league-gothic/LeagueGothic-Regular.otf); 
+    src: url(fonts/8-bit-wonder/league-gothic/LeagueGothic-Regular.otf); 
   }
 
   </style>
@@ -54,9 +54,36 @@
 
   <main>
 
-    <p> Hola! My name is Rocky. I am a Third Year Kinesiology Student at the University Of Alberta</p>
+    <p id="intro-text">Hola! My name is Rocky. I am a Third Year Kinesiology Student at the University Of Alberta</p>
+
+     <!-- Javascript-->
+
+  <script>
+    function typeWriter(text, speed) {
+      let i = 0;
+      const element = document.getElementById('intro-text');
+      element.innerHTML = ''; // Clear the existing text
+      function addNextCharacter() {
+        if (i < text.length) {
+          element.innerHTML += text.charAt(i);
+          i++;
+          setTimeout(addNextCharacter, speed);
+        }
+      }
+      addNextCharacter();
+    }
+  
+    // Call the typeWriter function with your text and speed
+    const introText = "Hola! My name is Rocky. I am a Third Year Kinesiology Student at the University Of Alberta";
+    const typingSpeed = 40; // Adjust this value to control the typing speed
+    typeWriter(introText, typingSpeed);
+  </script>
+  
 
   </main>  
+
+ 
+
 
   <!-- Text Changer -->
 
