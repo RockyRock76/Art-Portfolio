@@ -2,26 +2,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
-    background-image: url('Photos/main_page/IMG_3007.jpg'); /* Use forward slashes or double backslashes for folder separators */
+    background-color: #ede8e3;
     background-size: cover;
     background-position: center  40%;
     background-repeat: no-repeat;
   }
+
+  
    
 
   /* HEADER SECTION */
   
   /* Apply a different font-family to the header */
 header {
-  font-family: '8bit';
+  font-family: 'ayres';
   background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
-  padding: 0;
-  margin-bottom: 0;
-  text-align: center;
-  font-size: 30px;
-  
+  padding: 5;
+  position: absolute;
+  top: 0.4in; /* One inch from the top */
+  left: 1.3in;
+  font-size: 40px;
+  margin: 0;
+
 }
+
 
 a {
   text-decoration: none; /* Remove underline from all links */
@@ -29,14 +33,14 @@ a {
 
 /* Apply a different font-family to the h1 element within the header */
 header h1 {
-  color: #888888;
+  color: #594838;
 }
 
 /* Customize the size of the horizontal line */
 .line1 {
   width: 30%;
   height: 2px;
-  background-color: #000000; /* Set the background color of the line */
+  background-color: #594838; /* Set the background color of the line */
   border: none;
   margin: auto;
   margin-top: 0px; /* Adjust this value to control the distance between header and line */
@@ -50,34 +54,40 @@ header h1 {
         /* See how I put the text-align: center; here and not in the other nav ul li sections */
 
 
-  nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family:'8bit';
-    font-size: 24px;
-  }
-  
-  nav ul li {
-    display: inline-block;
-    margin-right: 10px;
-  }
+  /* Navigation Links */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: '8bit';
+  font-size: 30px;
+  display: flex; /* Use flexbox for horizontal alignment */
+  position: absolute;
+  top: 1.5in; /* One inch from the top */
+  right: 1in; /* One inch from the right */
+}
 
-  nav ul li:last-child {
-    margin-right: 0; /* Remove right margin for the last list item */
-  }
+nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+nav ul li:last-child {
+  margin-right: 0; /* Remove right margin for the last list item */
+}
+
+nav ul li a {
+  color: #594838;
+  text-decoration: none;
+}
+
   
-  nav ul li a {
-    color: #a3a3a3;
-    text-decoration: none;
-  }
   
 /* Customize the size of the horizontal line */
 .line2 {
   width: 22%; /* Set the width of the line to 50% of its containing element */
   height: 2px; /* Set the height of the line to 2 pixels */
-  background-color: #000000; /* Set the background color of the line */
+  background-color: #594838; /* Set the background color of the line */
   border: none; /* Remove the default border */
   margin: 10;
 }
@@ -94,7 +104,7 @@ header h1 {
   }
   
   h1, h2 {
-    color: #888888;
+    color: #594838;
   }
   
   .image-container {
@@ -106,19 +116,13 @@ header h1 {
     max-width: 300px;
     height: auto;
   }
-  
-  footer {
-    background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
-    color: #888888;
-    padding: 20px;
-    text-align: center;
-  }
+
 
   main {
     background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
     padding: 5px;
     text-align: center;
-    color: #888888;
+    color: #594838;
     font-family:'8bit';
     font-size: 24px;
     overflow: hidden; /* Hide the overflow so the text doesn't show before animation */
@@ -128,37 +132,37 @@ header h1 {
   }
 
   main1 {
-    background-color: #ffffff;
+    background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
     padding: 5px;
     text-align: center;
-    color: #888888;
+    color: #594838;
     font-family:'8bit';
     font-size: 24px;
   }
 
   main2 {
-    background-color: #ffffff;
+    background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
     padding: 5px;
     text-align: center;
-    color: #888888;
+    color: #594838;
     font-family:'8bit';
     font-size: 24px;
   }
 
   main3 {
-    background-color: #ffffff;
+    background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
     padding: 5px;
     text-align: center;
-    color: #888888;
+    color: #594838;
     font-family:'8bit';
     font-size: 24px;
   }
 
   main4 {
-    background-color: #ffffff;
+    background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
     padding: 5px;
     text-align: center;
-    color: #888888;
+    color: #594838;
     font-family:'8bit';
     font-size: 24px;
   }
@@ -167,7 +171,7 @@ header h1 {
     background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
     padding: 5px;
     text-align: center;
-    color: #888888;
+    color: #594838;
     font-family:'8bit';
     font-size: 24px;
   }
