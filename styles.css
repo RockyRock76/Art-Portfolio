@@ -18,6 +18,10 @@ header {
   font-size: 30px;
 }
 
+a {
+  text-decoration: none; /* Remove underline from all links */
+}
+
 /* Apply a different font-family to the h1 element within the header */
 header h1 {
   color: #000000;
