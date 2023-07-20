@@ -6,48 +6,35 @@ body {
   background-size: cover;
   background-position: center 40%;
   background-repeat: no-repeat;
-  flex-direction: column;
   min-height: 100vh; /* Set the minimum height of the container to viewport height */
 }
 
-  
-   
+/* HEADER SECTION */
 
-  /* HEADER SECTION */
-  
-  /* Apply a different font-family to the header */
+/* Apply a different font-family to the header */
 header {
   font-family: 'ayres';
   background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
   padding: 5;
-  position: absolute;
+  display: flex;
+  position: fixed;
   top: 0.4in; /* One inch from the top */
   left: 1.3in;
   font-size: 40px;
   margin: 0;
-
 }
-
 
 a {
   text-decoration: none; /* Remove underline from all links */
 }
 
 /* Apply a different font-family to the h1 element within the header */
-
 header h1 {
   color: #594838;
   margin: 0; /* Add this line to remove the default margin */
 }
 
-
-
-  /* Navigation Tabs Style */
-      /* this first one is the left and right margins */
-        /* See how I put the text-align: center; here and not in the other nav ul li sections */
-
-
-  /* Navigation Links */
+/* Navigation Links */
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -74,105 +61,96 @@ nav ul li a {
   text-decoration: none;
 }
 
-  
-  
 /* Customize the size of the horizontal line */
-.line2 {
+.line1 {
   width: 100%; /* Adjust the width of the line as needed */
   height: 2px; /* Set the height of the line to 2 pixels */
   background-color: #594838; /* Set the background color of the line */
   border: none; /* Remove the default border */
   margin: 10px auto; /* Center the line horizontally and add margin */
-  position: absolute;
+  position: fixed;
+  display: flex;
+  top: 1.8in;
 }
 
+section#id main {
+  padding: 20px;
+}
 
-  section id
+section#id section {
+  margin-bottom: 20px;
+}
 
-  main {
-    padding: 20px;
-  }
-  
-  section {
-    margin-bottom: 20px;
-  }
-  
-  h1, h2 {
-    color: #594838;
-  }
-  
-  .image-container {
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  img {
-    max-width: 300px;
-    height: auto;
-  }
+h1, h2 {
+  color: #594838;
+}
 
+.image-container {
+  display: flex;
+  justify-content: space-between;
+}
 
-  main {
-    background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
-    padding: 5px;
-    text-align: center;
-    color: #594838;
-    font-family:'8bit';
-    font-size: 24px;
-    overflow: hidden; /* Hide the overflow so the text doesn't show before animation */
-    white-space: nowrap; /* Keep the text in one line */
+img {
+  max-width: 300px;
+  height: auto;
+}
 
+main {
+  background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
+  padding: 5px;
+  text-align: center;
+  color: #594838;
+  font-family: '8bit';
+  font-size: 24px;
+  overflow: hidden; /* Hide the overflow so the text doesn't show before animation */
+  white-space: nowrap; /* Keep the text in one line */
+  margin-top: 500px; /* Add margin to create space below the navigation */
+}
 
-  }
+main1 {
+  background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
+  padding: 5px;
+  text-align: center;
+  color: #594838;
+  font-family: '8bit';
+  font-size: 24px;
+}
 
-  main1 {
-    background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
-    padding: 5px;
-    text-align: center;
-    color: #594838;
-    font-family:'8bit';
-    font-size: 24px;
-  }
+main2 {
+  background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
+  padding: 5px;
+  text-align: center;
+  color: #594838;
+  font-family: '8bit';
+  font-size: 24px;
+}
 
-  main2 {
-    background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
-    padding: 5px;
-    text-align: center;
-    color: #594838;
-    font-family:'8bit';
-    font-size: 24px;
-  }
+main3 {
+  background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
+  padding: 5px;
+  text-align: center;
+  color: #594838;
+  font-family: '8bit';
+  font-size: 24px;
+}
 
-  main3 {
-    background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
-    padding: 5px;
-    text-align: center;
-    color: #594838;
-    font-family:'8bit';
-    font-size: 24px;
-  }
+main4 {
+  background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
+  padding: 5px;
+  text-align: center;
+  color: #594838;
+  font-family: '8bit';
+  font-size: 24px;
+}
 
-  main4 {
-    background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
-    padding: 5px;
-    text-align: center;
-    color: #594838;
-    font-family:'8bit';
-    font-size: 24px;
-  }
-
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
-    color: #594838;
-    padding: 20px;
-    text-align: center;
-    font-family: '8bit';
-    font-size: 24px;
-  }
-
-
-
-  
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
+  color: #594838;
+  padding: 20px;
+  text-align: center;
+  font-family: '8bit';
+  font-size: 24px;
+}
