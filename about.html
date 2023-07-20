@@ -10,11 +10,32 @@
 
 <body>
 
-  <a href="index.html">
+ 
     <header>
-      <h1>Rocky Singh</h1>
+        <nav>
+          <a href="index.html">
+            <h1 class="header-title">Rocky Singh</h1>
+          </a>
+
+          <ul>
+            <li><a href="portfolio.html"><h2>Portfolio</h2></a></li>
+            <li><a href="about.html"><h2>About Me</h2></a></li>
+            <li><a href="contact.html"><h2>Get In Touch</h2></a></li>
+            <li><a href="tutorial.html"><h2>Tutorial</h2></a></li>
+          </ul>
+
+          <style>
+            @font-face {
+          font-family: '8bit';
+          src: url(fonts/8-bit-wonder/league-gothic/LeagueGothic-Regular.otf); 
+          }
+          </style>
+
+        </nav>
+        
     </header>
-  </a>
+  
+  
 
   <style>
 
@@ -25,80 +46,76 @@
 
   @font-face {
   font-family: 'ayres';
-    src: url(fonts/ayres/Ayres.ttf); 
+    src: url(fonts/quicksand/Quicksand_Light.otf); 
   }
 
   </style>
 
-
   <hr class="line1">
 
-  <!-- Navigation Links -->
-
-  <nav>
-    <ul>
-      <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="contact.html">Get In Touch</a></li>
-      <li><a href="tutorial.html">Tutorial</a></li>
-    </ul>
+  <!-- homepage content-->
 
 
-    <style>
+  <main>
 
-      @font-face {
-    font-family: '8bit';
-    src: url(fonts/8-bit-wonder/league-gothic/LeagueGothic-Regular.otf); 
-  }
+    <p id="intro-text">Hola! My name is Rocky. I am a Third Year Kinesiology Student at the University Of Alberta</p>
+
+     <!-- Javascript-->
+
+     <script>
+      function typeWriter(text, speed) {
+        let i = 0;
+        const element = document.getElementById('intro-text');
+        element.innerHTML = ''; // Clear the existing text
+        function addNextCharacter() {
+          if (i < text.length) {
+            element.innerHTML += text.charAt(i);
+            i++;
+            setTimeout(addNextCharacter, speed);
+          }
+        }
+        addNextCharacter();
+      }
+    
+      // Call the typeWriter function with your text and speed
+      const introText = "Hola! My name is Rocky. I am a Third Year Kinesiology Student at the University Of Alberta";
+      const typingSpeed = 60; // Adjust this value to control the typing speed
+      typeWriter(introText, typingSpeed);
+    </script>
+    
   
-    </style>
 
-  </nav>
+  </main>  
 
-  <!-- About Me Section-->
+ 
 
-  <main2>
 
-    <section id="about.me">
-      <h2>About Me</h2>
-      <div class="image-container">
-        <img src="image1.jpg" alt="Artwork 1">
-        <img src="image2.jpg" alt="Artwork 2">
-        <img src="image3.jpg" alt="Artwork 3">
-      </div>
-    </section>
+  <!-- Text Changer -->
 
-    <style>
 
-      @font-face {
-    font-family: '8bit';
-    src: url(fonts/8-bit-wonder/league-gothic/LeagueGothic-Regular.otf); 
-  }
-  
-    </style>
 
-  </main2>
 
-  
+
+
+
+
   <!-- Footer section -->
 
   <footer>
     
-    <p>&copy; 2023 My Art Portfolio. All rights reserved.</p>
+    <div id="trademark">
+      <h2>&copy; 2023 My Art Portfolio. All rights reserved</h2>
+    </div>
 
-    <style>
-
-      @font-face {
-    font-family: '8bit';
-    src: url(fonts/8-bit-wonder/league-gothic/LeagueGothic-Regular.otf); 
-  }
-  
-    </style>
 
   </footer>
 
 
 
+
+  
+
 </body>
 
 </html>
+
