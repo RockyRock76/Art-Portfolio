@@ -74,6 +74,21 @@ ul {
   top: 60px;
 }
 
+
+/* Main Page Stuff */
+
+.homepage1 {
+  height: 720px;
+  margin-top: 70px;
+}
+
+
+.image1 {
+  width: 200px;
+}
+
+
+
 #introduction {
   background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
   padding: 5px;
