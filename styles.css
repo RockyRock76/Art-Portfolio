@@ -31,7 +31,7 @@ header h1 {
 }
 
 .header-title {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 
@@ -74,7 +74,7 @@ ul {
   top: 60px;
 }
 
-main {
+#introduction {
   background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
   padding: 5px;
   text-align: center;
@@ -98,14 +98,12 @@ main {
   margin-top: 100px;
 }
 
-#trademark {
-  position: relative;
-  bottom: 0;
-  width: 100%;
-  background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
-  color: #594838;
-  padding: 20px;
+#trademark{
+  display:block;
+  position:center;
   text-align: center;
+  width:100%;
+  background-color: #ede8e3;
   font-family: 'ayres';
   font-size: 10px;
 }
