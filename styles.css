@@ -83,7 +83,7 @@ ul {
   font-size: 24px;
   overflow: hidden; /* Hide the overflow so the text doesn't show before animation */
   white-space: nowrap; /* Keep the text in one line */
-  margin-top: 500px; /* Add margin to create space below the navigation */
+  margin-top: 100px; /* Add margin to create space below the navigation */
   padding-top: 1.5in;
 }
 
@@ -98,12 +98,15 @@ ul {
   margin-top: 100px;
 }
 
-#trademark{
-  display:block;
-  position:center;
+#trademark {
+  display: block;
+  position: fixed; /* Set the position to fixed */
   text-align: center;
-  width:100%;
+  width: 100%;
   background-color: #ede8e3;
   font-family: 'ayres';
   font-size: 10px;
+  bottom: 0; /* Align the element to the bottom */
+  left: 50%; /* Center the element horizontally */
+  transform: translateX(-50%); /* Adjust to center the element properly */
 }
