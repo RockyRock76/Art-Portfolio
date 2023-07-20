@@ -6,6 +6,8 @@ body {
     background-size: cover;
     background-position: center  40%;
     background-repeat: no-repeat;
+    flex-direction: column;
+    min-height: 100vh; /* Set the minimum height of the container to viewport height */
   }
 
   
@@ -63,7 +65,7 @@ nav ul {
   font-size: 30px;
   display: flex; /* Use flexbox for horizontal alignment */
   position: absolute;
-  top: 1.5in; /* One inch from the top */
+  top: 1.3in; /* One inch from the top */
   right: 1in; /* One inch from the right */
 }
 
@@ -168,11 +170,14 @@ nav ul li a {
   }
 
   footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: hsla(0, 0%, 100%, 0); /* Background with 50% transparency */
-    padding: 5px;
-    text-align: center;
     color: #594838;
-    font-family:'8bit';
+    padding: 20px;
+    text-align: center;
+    font-family: '8bit';
     font-size: 24px;
   }
 
