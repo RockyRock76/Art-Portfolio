@@ -13,15 +13,14 @@ body {
 
 /* Apply a different font-family to the header */
 header {
-  font-family: 'ayres';
-  background-color: #00000000;
-  padding: 5;
-  display: flex;
   position: fixed;
-  top: 0.4in; /* One inch from the top */
-  left: 1.3in;
-  font-size: 40px;
-  margin: 0;
+  top: 0;
+  width: 100%;
+  background-color: #59483800;
+  font-family: "ayres";
+  font-size: 40;
+
+
 }
 
 a {
@@ -34,33 +33,23 @@ header h1 {
   margin: 0; /* Add this line to remove the default margin */
 }
 
-/* Navigation Links */
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  font-family: '8bit';
-  font-size: 30px;
-  display: flex; /* Use flexbox for horizontal alignment */
-  position: fixed;
-  top: 0.7in; /* One inch from the top */
-  right: 1in; /* One inch from the right */
+nav {
+  font-family: "8bit";
+  width: 95%;
+  margin: auto;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
 }
 
-nav ul li {
-  display: inline-block;
-  margin-left: 10px;
-}
 
-nav ul li:last-child {
-  margin-right: 0; /* Remove right margin for the last list item */
-}
 
-nav ul li a {
-  background-color: #ff000000;
-  color: #594838;
-  text-decoration: none;
-}
+
+
+
 
 /* Customize the size of the horizontal line */
 .line1 {
