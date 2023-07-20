@@ -1,14 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #ede8e3;
-    background-size: cover;
-    background-position: center  40%;
-    background-repeat: no-repeat;
-    flex-direction: column;
-    min-height: 100vh; /* Set the minimum height of the container to viewport height */
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ede8e3;
+  background-size: cover;
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  flex-direction: column;
+  min-height: 100vh; /* Set the minimum height of the container to viewport height */
+}
 
   
    
@@ -34,21 +34,12 @@ a {
 }
 
 /* Apply a different font-family to the h1 element within the header */
+
 header h1 {
   color: #594838;
+  margin: 0; /* Add this line to remove the default margin */
 }
 
-/* Customize the size of the horizontal line */
-.line1 {
-  width: 30%;
-  height: 2px;
-  background-color: #594838; /* Set the background color of the line */
-  border: none;
-  margin: auto;
-  margin-top: 0px; /* Adjust this value to control the distance between header and line */
-  margin-bottom: 10px; /* Adjust this value to control the distance between line and content below */
-
-}
 
 
   /* Navigation Tabs Style */
@@ -64,7 +55,7 @@ nav ul {
   font-family: '8bit';
   font-size: 30px;
   display: flex; /* Use flexbox for horizontal alignment */
-  position: absolute;
+  position: fixed;
   top: 1.3in; /* One inch from the top */
   right: 1in; /* One inch from the right */
 }
@@ -87,11 +78,12 @@ nav ul li a {
   
 /* Customize the size of the horizontal line */
 .line2 {
-  width: 22%; /* Set the width of the line to 50% of its containing element */
+  width: 100%; /* Adjust the width of the line as needed */
   height: 2px; /* Set the height of the line to 2 pixels */
   background-color: #594838; /* Set the background color of the line */
   border: none; /* Remove the default border */
-  margin: 10;
+  margin: 10px auto; /* Center the line horizontally and add margin */
+  position: absolute;
 }
 
 
