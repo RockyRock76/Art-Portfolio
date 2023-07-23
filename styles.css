@@ -77,11 +77,14 @@ ul {
 
 /* Main Page Stuff */
 
-.homepage1 {
+  /* Put this before your body. as it makes ebverything start below the navigation tab */
+
+  .homepage1 {
   height: 720px;
   margin-top: 70px;
 }
 
+/* content */
 
 .image1 {
   width: 200px;
