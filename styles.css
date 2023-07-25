@@ -72,6 +72,7 @@ ul {
   position: fixed;
   display: flex;
   top: 60px;
+  z-index: 1;
 }
 
 
@@ -89,6 +90,73 @@ ul {
 .image1 {
   width: 200px;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* About me Section*/
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  padding-top: 0px;
+  margin-top: 70px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  width: 40%;
+  background-color: #11111100;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  width: 60%;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.line2 {
+  width: 2px; /* Set the width of the line (thickness) */
+  height: 100%; /* Set the height of the line to the full height of the container */
+  background-color: #594838; /* Set the background color of the line */
+  position: fixed; /* Set the position to fixed */
+  top: 0; /* Align the element to the top */
+  left: 40%; /* Center the element horizontally */
+  margin-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
