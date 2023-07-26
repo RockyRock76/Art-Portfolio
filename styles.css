@@ -138,7 +138,7 @@ ul {
 
 .centered2 {
   position: absolute;
-  margin-top: 85px;
+  margin-top: 90px;
   top: -10%;
   left: 50%;
   transform: translate(-50%, -10%);
@@ -148,50 +148,52 @@ ul {
 h1 {
   font-size: 30px;
   font-family: "ayres";
+  color: #594838;
+
 }
 
 .centered3 {
   position: absolute;
   top: 10%;
-  left: 20%;
-  transform: translate(-20%, -10%);
+  left: 17.5%; /* Adjust the left value to center the list */
+  transform: translate(-17.5%, -10%); /* Adjust the transform value */
   text-align: center;
 }
 
 ul2 {
-  list-style-type: disc; /* Use disc for default bullet points, you can change to other values like square, circle, etc. */
-  padding-left: 20px; /* Adjust the indentation or padding as needed */
-  font-size: 16px; /* Adjust the font size as needed */
-  color: #594838; /* Adjust the color of the list items as needed */
-  font-family: "ayres";
+  list-style-type: disc;
+  padding-left: 20px;
   font-size: 20px;
+  color: #594838;
+  font-family: "ayres";
 }
 
 ul2 li {
   display: block;
-  margin-bottom: 10px; /* Adjust the margin value to increase/decrease the gap */
+  margin-bottom: 10px;
 }
 
+/* Right side of the right section */
 .centered4 {
   position: absolute;
   top: 10%;
-  left: 80%;
-  transform: translate(-80%, -10%);
+  right: 22.5%; /* Adjust the right value to center the list */
+  transform: translate(22.5%, -10%); /* Adjust the transform value */
   text-align: center;
+  margin-top: 0px;
 }
 
 ul3 {
-  list-style-type: disc; /* Use disc for default bullet points, you can change to other values like square, circle, etc. */
-  padding-left: 20px; /* Adjust the indentation or padding as needed */
-  font-size: 16px; /* Adjust the font size as needed */
-  color: #594838; /* Adjust the color of the list items as needed */
-  font-family: "ayres";
+  list-style-type: disc;
+  padding-left: 20px;
   font-size: 20px;
+  color: #594838;
+  font-family: "ayres";
 }
 
 ul3 li {
   display: block;
-  margin-bottom: 10px; /* Adjust the margin value to increase/decrease the gap */
+  margin-bottom: 10px;
 }
 
 
