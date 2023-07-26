@@ -112,7 +112,7 @@ ul {
   width: 50%;
   position: fixed;
   padding-top: 0px;
-  margin-top: 70px;
+  margin-top: 8vh;
 }
 
 /* Control the left side */
@@ -141,7 +141,7 @@ ul {
 
 .centered2 {
   position: absolute;
-  margin-top: 90px;
+  margin-top: 10vh;
   top: -10%;
   left: 50%;
   transform: translate(-50%, -10%);
