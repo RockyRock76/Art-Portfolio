@@ -115,14 +115,14 @@ ul {
 /* Control the left side */
 .left {
   left: 0;
-  width: 40%;
+  width: 50%;
   background-color: #11111100;
 }
 
 /* Control the right side */
 .right {
   right: 0;
-  width: 60%;
+  width: 50%;
   background-color: rgba(255, 0, 0, 0);
 }
 
@@ -135,15 +135,105 @@ ul {
   text-align: center;
 }
 
+
+.centered2 {
+  position: absolute;
+  margin-top: 85px;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: "ayres";
+}
+
+.centered3 {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  transform: translate(-20%, -10%);
+  text-align: center;
+}
+
+ul2 {
+  list-style-type: disc; /* Use disc for default bullet points, you can change to other values like square, circle, etc. */
+  padding-left: 20px; /* Adjust the indentation or padding as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+  color: #594838; /* Adjust the color of the list items as needed */
+  font-family: "ayres";
+  font-size: 20px;
+}
+
+ul2 li {
+  display: block;
+  margin-bottom: 10px; /* Adjust the margin value to increase/decrease the gap */
+}
+
+.centered4 {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  transform: translate(-80%, -10%);
+  text-align: center;
+}
+
+ul3 {
+  list-style-type: disc; /* Use disc for default bullet points, you can change to other values like square, circle, etc. */
+  padding-left: 20px; /* Adjust the indentation or padding as needed */
+  font-size: 16px; /* Adjust the font size as needed */
+  color: #594838; /* Adjust the color of the list items as needed */
+  font-family: "ayres";
+  font-size: 20px;
+}
+
+ul3 li {
+  display: block;
+  margin-bottom: 10px; /* Adjust the margin value to increase/decrease the gap */
+}
+
+
+
+
+
+
 .line2 {
   width: 2px; /* Set the width of the line (thickness) */
-  height: 100%; /* Set the height of the line to the full height of the container */
-  background-color: #594838; /* Set the background color of the line */
+  height: 70%; /* Set the height of the line to the full height of the container */
+  background-color: #5948386d; /* Set the background color of the line */
   position: fixed; /* Set the position to fixed */
   top: 0; /* Align the element to the top */
-  left: 40%; /* Center the element horizontally */
-  margin-top: 70px;
+  left: 50%; /* Center the element horizontally */
+  margin-top: 150px;
+  margin-bottom: 150px;}
+
+.line3 {
+  width: 2px; /* Set the width of the line (thickness) */
+  height: 70%; /* Set the height of the line to the full height of the container */
+  background-color: #5948386d; /* Set the background color of the line */
+  position: fixed; /* Set the position to fixed */
+  top: 0; /* Align the element to the top */
+  left: 75%; /* Center the element horizontally */
+  margin-top: 150px;
+  margin-bottom: 150px;
+
 }
+
+.line4 {
+    width: 100%; /* Adjust the width of the line as needed */
+    height: 2px; /* Set the height of the line to 2 pixels */
+    background-color: #594838; /* Set the background color of the line */
+    border: none; /* Remove the default border */
+    margin: 10px auto; /* Center the line horizontally and add margin */
+    position: fixed;
+    display: flex;
+    top: 60px;
+    z-index: 1;
+  }
+
+
 
 
 
