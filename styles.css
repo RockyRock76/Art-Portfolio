@@ -141,7 +141,7 @@ ul {
 
 .centered2 {
   position: absolute;
-  margin-top: 10vh;
+  margin-top: 12vh;
   top: -10%;
   left: 50%;
   transform: translate(-50%, -10%);
@@ -158,8 +158,8 @@ h1 {
 .centered3 {
   position: absolute;
   top: 10%;
-  left: 17.5%; /* Adjust the left value to center the list */
-  transform: translate(-17.5%, -10%); /* Adjust the transform value */
+  left: 12.5%; /* Adjust the left value to center the list */
+  transform: translate(-12.5%, -10%); /* Adjust the transform value */
   text-align: center;
 }
 
@@ -192,6 +192,7 @@ ul3 {
   font-size: 20px;
   color: #594838;
   font-family: "ayres";
+  gap: 30px;
 }
 
 ul3 li {
