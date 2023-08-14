@@ -84,15 +84,11 @@ ul {
   /* Put this before your body. as it makes ebverything start below the navigation tab */
 
   .homepage1 {
-  height: 720px;
-  margin-top: 70px;
+  margin-top: 10vh;
 }
 
 /* content */
 
-.image1 {
-  width: 200px;
-}
 
 
 
@@ -103,129 +99,6 @@ ul {
 
 
 
-
-/* About me Section*/
-
-/* Split the screen in half */
-.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  padding-top: 0px;
-  margin-top: 8vh;
-}
-
-/* Control the left side */
-.left {
-  left: 0;
-  width: 50%;
-  background-color: #11111100;
-}
-
-/* Control the right side */
-.right {
-  right: 0;
-  width: 50%;
-  background-color: rgba(255, 0, 0, 0);
-}
-
-/* If you want the content centered horizontally and vertically */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-
-.centered2 {
-  position: absolute;
-  margin-top: 12vh;
-  top: -10%;
-  left: 50%;
-  transform: translate(-50%, -10%);
-  text-align: center;
-}
-
-h1 {
-  font-size: 30px;
-  font-family: "ayres";
-  color: #594838;
-
-}
-
-.centered3 {
-  position: absolute;
-  top: 10%;
-  left: 12.5%; /* Adjust the left value to center the list */
-  transform: translate(-12.5%, -10%); /* Adjust the transform value */
-  text-align: center;
-}
-
-ul2 {
-  list-style-type: disc;
-  padding-left: 20px;
-  font-size: 20px;
-  color: #594838;
-  font-family: "ayres";
-}
-
-ul2 li {
-  display: block;
-  margin-bottom: 10px;
-}
-
-/* Right side of the right section */
-.centered4 {
-  position: absolute;
-  top: 10%;
-  right: 22.5%; /* Adjust the right value to center the list */
-  transform: translate(22.5%, -10%); /* Adjust the transform value */
-  text-align: center;
-  margin-top: 0px;
-}
-
-ul3 {
-  list-style-type: disc;
-  padding-left: 20px;
-  font-size: 20px;
-  color: #594838;
-  font-family: "ayres";
-  gap: 30px;
-}
-
-ul3 li {
-  display: block;
-  margin-bottom: 10px;
-}
-
-
-
-
-
-
-.line2 {
-  width: 2px; /* Set the width of the line (thickness) */
-  height: 70%; /* Set the height of the line to the full height of the container */
-  background-color: #5948386d; /* Set the background color of the line */
-  position: fixed; /* Set the position to fixed */
-  top: 0; /* Align the element to the top */
-  left: 50%; /* Center the element horizontally */
-  margin-top: 150px;
-  margin-bottom: 150px;}
-
-.line3 {
-  width: 2px; /* Set the width of the line (thickness) */
-  height: 70%; /* Set the height of the line to the full height of the container */
-  background-color: #5948386d; /* Set the background color of the line */
-  position: fixed; /* Set the position to fixed */
-  top: 0; /* Align the element to the top */
-  left: 75%; /* Center the element horizontally */
-  margin-top: 150px;
-  margin-bottom: 150px;
-
-}
 
 
 
@@ -252,6 +125,8 @@ ul3 li {
   white-space: nowrap; /* Keep the text in one line */
   margin-top: 100px;
 }
+
+/*footer*/
 
 #trademark {
   display: block;
